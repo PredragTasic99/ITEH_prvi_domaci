@@ -123,7 +123,7 @@
       </nav>
 
       <div class='h_div'>
-        <h1 class='h1_text'>Marke automobila</h1>
+        <h1 class='h1_text'>Marke skija</h1>
         <i>- detalji -</i>
         <br>
         <hr>

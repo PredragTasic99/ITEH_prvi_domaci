@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modeli skija</title>
-  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="style.css">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
@@ -58,7 +58,7 @@
               <th scope="col">Naziv modela</th>
               <th scope="col">Tip</th>
               <th scope="col">Duzina(cm)</th>
-              <th scope="col">Sirina(cm)</th>
+              <th scope="col">Sirina(mm)</th>
             </tr>
           </thead>
           <tbody id='modeli'>
