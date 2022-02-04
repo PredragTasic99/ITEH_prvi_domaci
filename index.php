@@ -20,7 +20,7 @@
 
 
 <body>
-  <!-- Modal -->
+  
   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -32,22 +32,21 @@
         </div>
         <div class="modal-body">
 
-          <!-- sadrzaj modala -->
           <form>
             <div class="form-group centered">
               <label for="naziv_marke">Naziv marke:</label>
-              <!-- value imas ovde -->
+             
               <input type="text" class="form-control" id="naziv_marke" value='' required>
             </div>
             <div class="form-group">
               <label for="zemlja_porekla">Zemlja porekla:</label>
-              <!-- value imas ovde -->
+             
               <select type="text" class="form-control" id="zemlja_porekla" value='' required></select>
             </div>
             <fieldset disabled>
               <div class="form-group">
                 <label for="broj_modela">Broj modela</label>
-                <!-- placeholder/value -->
+               
                 <input type="text" id="broj_modela" class="form-control" placeholder="0">
               </div>
             </fieldset>
@@ -66,7 +65,7 @@
     </div>
   </div>
 
-  <!-- Modal -->
+ 
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -78,7 +77,7 @@
         </div>
         <div class="modal-body">
 
-          <!-- sadrzaj modala -->
+        
           <form>
             <div class="form-group">
               <label for="naziv_marke_dodaj">Naziv marke:</label>

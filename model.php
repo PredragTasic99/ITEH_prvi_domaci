@@ -139,9 +139,9 @@
     $(document).ready(function () {
       $('#button_sacuvaj').click(function () {
         const naziv = $('#naziv_modela').val();
-        const karoserija = $('#tip').val();
-        const kubikaza = $('#duzina').val();
-        const snaga = $('#sirina').val();
+        const tip = $('#tip').val();
+        const duzina = $('#duzina').val();
+        const sirina = $('#sirina').val();
         if (trenutniModelId == -1) {
           $.post('./server/kreirajModel.php', { naziv: naziv, tip: tip, duzina: duzina, sirina: sirina, marka: marka.id }, function (data) {
             vratiModele();
@@ -187,7 +187,6 @@
         console.log(data);
         if (data.status != 1) {
           alert(data.greska);
-          // window.location.replace('./');
           return;
         }
         marka = data.marka;
@@ -201,7 +200,6 @@
       $.getJSON('./server/vratiModeleIzMarke.php', { marka: marka.id }, function (data) {
         if (data.status != 1) {
           alert(data.greska);
-          // window.location.replace('./');
           return;
         }
         modeli = data.modeli;
